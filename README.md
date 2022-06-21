@@ -1,4 +1,4 @@
-# Front-end
+# Frontend
 
 #Git
 
