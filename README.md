@@ -1,37 +1,44 @@
 # Curso-Frontend
 
-#Git
+# Front-end
 
-##Conceito de versionamento
-    *Historico
-    *Controle de versao
-    *Quem alterou
-    *O que alterou
-    *Todos os arquivos
-    *Evolucao continua
+# Git
 
-##Instalacao do Git
-    *Windows: https://git-scm.com/download/win
-    *Linux (apt-get): sudo apt-get install git
-    *Mac (brew): brew install git
+## Conceito de versionamento
+- Historico
+- Controle de versao
+- Quem alterou
+- O que alterou
+- Todos os arquivos
+- Evolucao continua
 
-##Criar conta no GitHub
+ Arquivo A | Versão 1 | Versão 2
+ Arquivo B | Versão 1 | Versão 2
 
-##Commits
-*Informacao de alteracao
-    *apos testado todo seu codigo
-    *git add*
-    *git commit -m "mensagem"
-    *git push (enviar alteracoes para o repositorio)
-    *git pull (puxar/trazer alteracoes do GitHub para sua maquina)
+## Instalacao do Git
+https://git-scm.com/
 
-##Clonar o projeto
-    *git clone
+- Windows: https://git-scm.com/download/win
+- Linux (apt-get): sudo apt-get install git
+- Mac (brew): brew install git
 
-##Git Flow
-    *Fluxo de Git
+## Criar conta no GitHub
 
-##Markdown
+## Commits
+ Informacao de alteracao
+- apos testado todo seu codigo
+- git add*
+- git commit -m "mensagem"
+- git push (enviar alteracoes para o repositorio)
+- git pull (puxar/trazer alteracoes do GitHub para sua maquina)
 
-###Branchs
-    *sao ramificacoes
+## Clonar o projeto
+- git clone
+
+## Git Flow
+- Fluxo de Git
+
+## Markdown
+
+### Branchs
+- sao ramificacoes
