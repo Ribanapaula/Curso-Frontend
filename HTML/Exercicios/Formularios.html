@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>HTML-Formulários</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="../css/reset.css">
+        <link rel="stylesheet" type="text/css" href="../css/layouts-fluidos.css">
+        <link rel="stylesheet" type="text/css" href="../css/graficos.css">
+        <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+			<h1>CURSO FRONT-END - HTML</h1>   
+		</header>
+        
+        <nav>
+            <h3>Aulas</h3>
+            <ul>
+                <li><a href="../Exercicios/Home.html">Home</a></li>
+                <li><a href="../Exercicios/Formatação de texto.html">Formatação de Texto</a></li>
+                <li><a href="../Exercicios/Layouts.html">Layouts</a></li>
+                <li><a href="../Exercicios/Layouts Web.html">Layouts Web</a></li>
+                <li><a href="../Exercicios/Listas e Links.html">Listas e Links</a></li>
+                <li><a href="../Exercicios/Tabelas.html">Tabelas</a></li>
+                <li><a href="../Exercicios/Formularios.html">Formulários</a></li>
+            </ul>
+            <h3>Rede Social</h3>
+            <ul>
+                <li><a href="https://aprnet.wordpress.com" target="_blank">APRNet</a></li>
+            </ul>   
+        </nav>
+        
+        <section>
+        <article>
+            <h3>Contato</h3>
+            <p> Preencha os campos abaixo</p>
+            <form method="post">
+                <div>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="mensagens">Mensagens</label><br>
+                    <textarea name="mensagens" id="mensagens" rows="5"></textarea>
+                </div>
+                <div>
+                    <p>
+                        <label>Quais linguagens você prefere?</label>
+                        <input type="radio" name="linguagens">HTML
+                        <input type="radio" name="linguagens">CSS
+                        <input type="radio" name="linguagens">Java Script
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label>Quais linguagens você sabe?</label>
+                        <input type="checkbox" name="linguagens">HTML
+                        <input type="checkbox" name="linguagens">CSS
+                        <input type="checkbox" name="linguagens">Java Script
+                    </p>
+                </div>
+                <div>
+                    <label>Qual a sua cor favorita?</label>
+                    <select>
+                        <option>Azul</option>
+                        <option>Verde</option>
+                        <option>Vermelho</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+        </article>
+        </section>
+        
+        <footer>
+            <h4>Desenvolvido por Ana Paula</h4>
+        </footer>        
+</body>
+</html>

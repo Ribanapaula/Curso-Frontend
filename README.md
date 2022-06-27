@@ -1,37 +1,53 @@
-# Frontend
+# Front-end
 
-#Git
+# Git
 
-##Conceito de versionamento
--Historico
--Controle de versao
--Quem alterou
--O que alterou
--Todos os arquivos
--Evolucao continua
+## Conceito de versionamento
+- Historico
+- Controle de versao
+- Quem alterou
+- O que alterou
+- Todos os arquivos
+- Evolucao continua
 
-##Instalacao do Git
--Windows: https://git-scm.com/download/win
--Linux (apt-get): sudo apt-get install git
--Mac (brew): brew install git
+- Arquivo A | Versão 1 | Versão 2
+- Arquivo B | Versão 1 | Versão 2
 
-##Criar conta no GitHub
+## Instalacao do Git
+https://git-scm.com/
 
-##Commits
-Informacao de alteracao
--apos testado todo seu codigo
--git add*
--git commit -m "mensagem"
--git push (enviar alteracoes para o repositorio)
--git pull (puxar/trazer alteracoes do GitHub para sua maquina)
+- Windows: https://git-scm.com/download/win
+- Linux (apt-get): sudo apt-get install git
+- Mac (brew): brew install git
 
-##Clonar o projeto
--git clone
+## Criar conta no GitHub
 
-##Git Flow
--Fluxo de Git
+## Commits
+ Informacao de alteracao
+- apos testado todo seu codigo
+- git add*
+- git commit -m "mensagem"
+- git push (enviar alteracoes para o repositorio)
+- git pull (puxar/trazer alteracoes do GitHub para sua maquina)
 
-##Markdown
+## Clonar o projeto
+- git clone
 
-###Branchs
--sao ramificacoes
+## Git Flow
+- Fluxo de Git
+
+## Markdown
+
+### Branchs
+- sao ramificacoes
+
+### Merge 
+- Mescla de branches
+
+### Pull Requests
+- Mescla branches no repositorio
+
+### Configura o Git Flow
+- git flow init
+- git flow feature start {nome-da-feature}
+

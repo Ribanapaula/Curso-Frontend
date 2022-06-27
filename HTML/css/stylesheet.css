@@ -1,0 +1,74 @@
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Alatsi', sans-serif;
+      background-color: #fff;
+      font-size: 20px;
+    }
+
+    header {
+      background: url(../images/matrix.png);
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+
+    nav {
+      float: left;
+      background: #b7d5f8;
+      width: 30%;
+      padding: 20px;
+      height: 100%;
+      
+    }
+
+    a {
+      color: rgb(2, 42, 170);
+      text-decoration: none;
+    }
+
+    a :hover{
+      color: aquamarine;
+    }
+
+    a :visited{
+      color: aqua;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    article {
+      float: left;
+      padding: 40px;
+      width: 70%;
+      background: url(../images/pattern.png);
+      background-color: rgb(218, 236, 245);
+      text-align: justify;
+      image-orientation: from-image;
+    }
+
+    section::after {
+      background: #ccc;
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    footer {
+      background-color: rgb(2, 56, 35);
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    
+    
+	
+    
