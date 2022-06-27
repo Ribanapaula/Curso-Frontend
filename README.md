@@ -12,8 +12,8 @@
 - Todos os arquivos
 - Evolucao continua
 
- Arquivo A | Versão 1 | Versão 2
- Arquivo B | Versão 1 | Versão 2
+- Arquivo A | Versão 1 | Versão 2
+- Arquivo B | Versão 1 | Versão 2
 
 ## Instalacao do Git
 https://git-scm.com/
@@ -42,3 +42,14 @@ https://git-scm.com/
 
 ### Branchs
 - sao ramificacoes
+
+### Merge 
+- Mescla de branches
+
+### Pull Requests
+- Mescla branches no repositorio
+
+### Configura o Git Flow
+- git flow init
+- git flow feature start {nome-da-feature}
+
