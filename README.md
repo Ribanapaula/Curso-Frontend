@@ -1,6 +1,6 @@
-# Curso-Frontend
+## Curso Front-end
 
-# Front-end
+#### EBAC
 
 # Git
 
@@ -12,17 +12,18 @@
 - Todos os arquivos
 - Evolucao continua
 
-- Arquivo A | Versão 1 | Versão 2
+- Arquivo A | Versao 1 | Versao 2
 - Arquivo B | Versão 1 | Versão 2
 
 ## Instalacao do Git
-https://git-scm.com/
+https://git-scm.com
 
-- Windows: https://git-scm.com/download/win
+- Windows: https:git-scm.com/download/win
 - Linux (apt-get): sudo apt-get install git
 - Mac (brew): brew install git
 
 ## Criar conta no GitHub
+https://github.com
 
 ## Commits
  Informacao de alteracao
@@ -32,24 +33,24 @@ https://git-scm.com/
 - git push (enviar alteracoes para o repositorio)
 - git pull (puxar/trazer alteracoes do GitHub para sua maquina)
 
-## Clonar o projeto
+## Clonar projeto
 - git clone
 
 ## Git Flow
 - Fluxo de Git
 
 ## Markdown
+- linguagem 
 
-### Branchs
-- sao ramificacoes
+## Branches
+- sao ramificacoes / versoes paralelas
 
-### Merge 
-- Mescla de branches
+### Merge
+- Mescla branches
 
 ### Pull Requests
 - Mescla branches no repositorio
 
 ### Configura o Git Flow
 - git flow init
-- git flow feature start {nome-da-feature}
-
+- git flow feature start
